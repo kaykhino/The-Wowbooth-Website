@@ -23,9 +23,9 @@
         welcomeSlide.owlCarousel({
             items: 1,
             loop: true,
-            nav: true,
+            nav: false,
             navText: ['Prev', 'Next'],
-            dots: false,
+            dots: true,
             autoplay: true,
             autoplayTimeout: 10000,
             smartSpeed: 500,
