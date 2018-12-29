@@ -2,12 +2,17 @@
     'use strict';
 
     var browserWindow = $(window);
+    
+    console.log(browserWindow.width());
+    console.log(browserWindow.height());
 
     // :: 1.0 Preloader Active Code
     browserWindow.on('load', function () {
         $('.preloader').fadeOut('slow', function () {
             $(this).remove();
         });
+        
+        $('.hero-slideshow .single-slide').height($(window).height());
     });
 
     // :: 2.0 Nav Active Code
