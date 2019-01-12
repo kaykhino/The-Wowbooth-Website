@@ -1196,7 +1196,7 @@ img {
     z-index: -1;
     top: 0;
     left: 0;
-    background-color: ; }
+    background-color: rgb(255,102,0,0.25); }
   .breadcrumb-area .breadcrumb-content {
     text-align: center; }
     .breadcrumb-area .breadcrumb-content h2 {
